@@ -1,0 +1,18 @@
+id: alfred2-confluence-search
+
+domain: densan-labs.net
+
+name: Alfred2 Confluence Search
+description: Confluence search
+created_by: Shinsuke Nishio
+website: TBD
+readme: readme
+
+## development config
+
+# path is the relative path to the workflow in the project root
+path: workflow
+
+# If you are using Alfred's advanced Dropbox sync, indicate the path shown in
+# Alfred Preferences > Advanced > Syncing:
+dropbox: ~/Dropbox

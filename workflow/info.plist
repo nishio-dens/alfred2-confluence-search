@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>densan-labs.net.alfred2-confluence-search</string>
+	<key>connections</key>
+	<dict>
+		<key>65E6A18B-E8B9-41D4-9016-59BE67103994</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFF2D545-0B8E-4B40-B80E-6B8A96C1600E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Shinsuke Nishio</string>
+	<key>description</key>
+	<string>Confluence search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Alfred2 Confluence Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>EFF2D545-0B8E-4B40-B80E-6B8A96C1600E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>keyword</key>
+				<string>conf</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>searching...</string>
+				<key>script</key>
+				<string>/usr/bin/ruby ./bootstrap.rb {query}</string>
+				<key>subtext</key>
+				<string>Confluence Search</string>
+				<key>title</key>
+				<string>confluence search</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>65E6A18B-E8B9-41D4-9016-59BE67103994</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>readme</string>
+	<key>uidata</key>
+	<dict>
+		<key>65E6A18B-E8B9-41D4-9016-59BE67103994</key>
+		<dict>
+			<key>ypos</key>
+			<real>120.0</real>
+		</dict>
+		<key>EFF2D545-0B8E-4B40-B80E-6B8A96C1600E</key>
+		<dict>
+			<key>ypos</key>
+			<real>70.0</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>TBD</string>
+</dict>
+</plist>
